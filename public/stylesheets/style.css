@@ -1,0 +1,100 @@
+:root {
+    --main: #90ff99;
+    --light: #b8f3bd;
+    --dark: #1f1305;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.font-light {
+    color: var(--light);
+}
+
+.root-light {
+    background-color: var(--light);
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+/* MAIN HBS */
+.btn-no-style {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: #0d6efd;
+    font-size: 100%;
+    transition: color .1s;
+}
+  
+.btn-no-style:hover {
+    background: none;
+    color: var(--main);
+}
+
+/* FOOTER - MAIN HBS */
+.footer-bg {
+    background-color: var(--dark);
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+}
+
+/* COMMENT FORM - ADD-COMMENT HBS */
+.comment-form {
+    margin-bottom: 5%;
+}
+
+/* COMMENTS HBS */
+.comment {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+  
+.comment:nth-child(odd) {
+    background-color: var(--light);
+}
+  
+.comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+}
+
+/* DASHBOARD */
+.new-post-form input {
+    width: 300px;
+}
+
+.edit-link {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 3px;
+}
+
+/* EDIT-POST HBS */
+.edit-post-form {
+    margin-bottom: 5%;
+}
+
+/* POST-INFO & SINGLE-POST HBS */
+.post {
+    margin-bottom: 2%;
+    line-height: 150%;
+}
+  
+.post .title span {
+    font-style: italic;
+    font-size: 90%;
+    color: #7d7d7d;
+}

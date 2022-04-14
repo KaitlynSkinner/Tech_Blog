@@ -1,0 +1,10 @@
+<ol class="list-group">
+    <!-- begin the loop -->
+    <!-- html code between loop will be repeated for every item in '/posts' -->
+    {{#each posts as |post|}}
+    <li class="list-group-item">
+        {{>post-info post}}
+    </li>
+    <!-- end the loop -->
+    {{/each}}
+</ol>

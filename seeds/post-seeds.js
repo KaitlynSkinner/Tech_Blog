@@ -4,18 +4,18 @@ const postdata = [
 
 	{
         "title": "Announcing the agenda for Tech Blog Sessions and Events 2022.",
-		"contents": "https://techblog.com/news",
+		"contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "user_id": 1
 
 	},
 	{
         "title": "Why it's great to write blog posts",
-		"contents": "https://techblog.com/blog-posts",
+		"contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		"user_id": 2
 	},
     {
         "title": "Tech Blog gains 1 million new followers!",
-		"contents": "https://techblog.com/press",
+		"contents": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "user_id": 3
 	}
 ];

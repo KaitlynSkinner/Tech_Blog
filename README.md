@@ -3,7 +3,9 @@
 ## Description
 A CMS-style blog site where developers can publish their blog posts and comment on other developers’ posts as well.
 
+
 ## User Story
+Aa a developer who writes about tech I want a CMS-style blog site in order to publish articles, blog posts, as well as personal thoughts and opinions.
 
 
 ## Table of Contents
@@ -18,7 +20,20 @@ A CMS-style blog site where developers can publish their blog posts and comment 
   * [Tests](#tests)
   * [Questions](#questions)
 
+
 ## Features
+ * Signup - create a username and password
+ * Login - user credentials are saved
+ * Navigation includes: homepage, dashboard, and option to logout
+ * View existing blog posts that include:
+    * Post Title
+    * Contents
+    * Post Creator's Username
+    * and Date Created
+ * User's that are signed up have the option to leave and save a comment. This will include the comment creator's username, and the date the comment was created.
+ * User's can create new blog posts
+ * User's can also delete or update their posts
+ * Logout - user is signed out of the website
 
 
 ## Technology Used
@@ -48,8 +63,6 @@ A CMS-style blog site where developers can publish their blog posts and comment 
 
 * **JawsDB Add-On:** is a Heroku add-on that provides a fully functional MySQL database server for use with your Heroku application. For the our purposes, you’ll use the free Kitefin Shared pricing plan.
 
-* **Faker:** is an npm package that generates massive amounts of fake contextual data.
-
 
 ## Installation
   ```
@@ -57,23 +70,30 @@ A CMS-style blog site where developers can publish their blog posts and comment 
   npm i
   ```
 
+
 ## Usage
  Once installed, type ```npm start``` to start server.
+
 
 ## Demos
  **Current Application Screenshots**
 
+
  ## License
 This application does not have a license. 
+
 
 ## Credits
 The application does not have any collaborators at this time.
 
+
 ## Contribute
 This application is not open to contributors at this time.
 
+
 ## Tests
 This application does not have any tests.
+
 
 ## Questions
 If you have any questions please feel free to contact me.

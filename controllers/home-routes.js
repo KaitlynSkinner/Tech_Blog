@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     Post.findAll({
         attributes: [
             'id',
-            'post_url',
+            'contents',
             'title',
             'created_at'
         ],
@@ -53,7 +53,7 @@ router.get('/post/:id', (req, res) => {
         },
         attributes: [
             'id',
-            'post_url',
+            'contents',
             'title',
             'created_at'
         ],
@@ -101,6 +101,11 @@ router.get('/login', (req, res) => {
     }
 
     res.render('login');
+});
+
+// http://localhost:3001/signup
+router.get('/signup', (req, res) => {
+    res.render('signup');
 });
 
 module.exports = router;
