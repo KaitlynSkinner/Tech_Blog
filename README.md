@@ -13,7 +13,7 @@ Aa a developer who writes about tech I want a CMS-style blog site in order to pu
   * [Technology Used](#technologyused)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Demos](#demos)
+  * [Photos](#photos)
   * [License](#license)
   * [Credits](#credits)
   * [Contribute](#contribute)
@@ -75,9 +75,11 @@ Aa a developer who writes about tech I want a CMS-style blog site in order to pu
  Once installed, type ```npm start``` to start server.
 
 
-## Demos
+## Photos
  **Current Application Screenshots**
 
+
+**Deployed to Heroku:** https://fast-stream-44337.herokuapp.com/ 
 
  ## License
 This application does not have a license. 
