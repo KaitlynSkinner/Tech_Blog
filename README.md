@@ -77,7 +77,17 @@ Aa a developer who writes about tech I want a CMS-style blog site in order to pu
 
 ## Photos
  **Current Application Screenshots**
-
+** **
+![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/singup.png?raw=true)
+** **
+![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/login.png?raw=true) 
+ ** **
+![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/posts.png?raw=true)
+** **
+![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/dashboard.png?raw=true)
+** **
+![Deployed Application](https://github.com/KaitlynSkinner/Tech_Blog/blob/9ceaca2e100882fff4c5d29af736eae1cd861c2b/public/images/add-comment.png?raw=true)
+** **
 
 **Deployed to Heroku:** https://fast-stream-44337.herokuapp.com/ 
 
